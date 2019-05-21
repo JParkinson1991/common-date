@@ -10,13 +10,15 @@
             "email": "joshparkinson1991@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {},
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4"
+    },
     "autoload": {
         "psr-4": {
             "JParkinson1991\\Common\\Date\\": "src/"
         }
-    },
-    "require-dev": {
-        "squizlabs/php_codesniffer": "^3.4"
     }
 }
